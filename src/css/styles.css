@@ -135,6 +135,12 @@ a {
     projects
 ──────────────────*/
 
+.title-projects{
+    text-align: center;
+    font-size: 45px;
+}
+
+
 #projects{
 	margin-top:100px;
     height: 100%;
