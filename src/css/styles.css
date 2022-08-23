@@ -166,6 +166,7 @@ a {
 	border-radius:12px;
     background:#745cd4;
     padding: 15px;
+    border-radius: 10px;
     
     
 }
@@ -174,6 +175,7 @@ a {
 	max-width: 90%;
 	height:70%;
 	border-radius:10px 10px 0px 0px;
+    border-radius: 15px;
 }
 
 .card .work-content{
