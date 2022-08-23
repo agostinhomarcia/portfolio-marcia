@@ -33,7 +33,7 @@ header ul li a {
 
 
 header ul li a:hover {
-    color: #312f2f;
+    color: #3f1414;
     text-decoration: underline;
 }
 
@@ -93,22 +93,7 @@ header ul li a:hover {
     border-radius: 5px 0px 0px 5px;
 }
 
-.form button {
-    width: 15%;
-    padding: 5px 10px;
-    /* background-color: #422525; */
-    background: linear-gradient(to right, #d31192 50%, rgb(141, 219, 230) 50%);
-    background-size: 200% 100%;
-    background-position: right bottom;
-    color: #fff;
-    font-weight: 600;
-    border: none;
-    cursor: pointer;
-    transition: all 400ms ease-out;
-    border-radius: 0px 5px 5px 0px;
-    margin-top: 10px;
-    margin-left: -5px;
-}
+
 
 
 
@@ -119,7 +104,7 @@ header ul li a:hover {
 }
 
 h3 {
-    color: #fff;
+    
     text-align: center;
     margin: 15px;
 }
@@ -134,10 +119,12 @@ a {
     projects
 ──────────────────*/
 
-.title-projects{
+.title-projects {
     text-align: center;
     font-size: 45px;
+    
 }
+
 
 
 #projects{
@@ -153,6 +140,7 @@ a {
 }
 #projects h3{
     padding-top: 70px;
+    padding: 15px;
 }
 #projects p{
 	font-family: var(--main-font-family);
@@ -176,7 +164,9 @@ a {
 	width: 360px;
 	height:275px;
 	border-radius:12px;
-    background:#726899;
+    background:#745cd4;
+    padding: 15px;
+    
     
 }
 
@@ -189,9 +179,7 @@ a {
 .card .work-content{
 	text-align: center;
 	padding: 10px 5px;
-	font-size: 0.5rem;
-	color: var(--main-fonts-color);
-	font-family: var(--main-font-family);
+	font-size: 0.6rem;
 	cursor: pointer;
 }
 
@@ -218,7 +206,9 @@ a {
     /* background-color: aquamarine; */
     background: left bottom;
     /* color: #291414; */
+    
 }
+
 footer ul li a{
     font-size: 16px;
     display: flex;
