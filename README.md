@@ -47,7 +47,7 @@
 ## :dart: About ##
 
 
-<h4 align="center"> To-do List </h4>
+<h4 align="center"> Portfólio</h4>
 
 <p align="center">
    <img src="https://media.giphy.com/media/c8Ru39SqYLqmsoFR6W/giphy.gif" alt="portfolio" width="850"/>
