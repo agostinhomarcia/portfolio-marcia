@@ -1,4 +1,15 @@
+body::-webkit-scrollbar {
+  width: 0.3rem;
+}
 
+body::-webkit-scrollbar-track {
+  background: rgb(15, 12, 12);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #745cd4;
+  border-radius: 20px;
+}
 
 header {
     display: flex;
