@@ -183,6 +183,23 @@ a {
   padding: 10px;
 }
 
+#projects{
+  animation-duration: 22s;
+  animation-name: projects;
+}
+
+@keyframes projects {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 .work {
   display: flex;
   flex: 1;
@@ -196,8 +213,8 @@ a {
   display: flex;
   flex-direction: column;
   margin: 25px;
-  width: 360px;
-  height: 275px;
+  width: 300px;
+  height: 300px;
   border-radius: 12px;
   background: #745cd4;
   padding: 15px;
@@ -225,9 +242,18 @@ a {
 .card .work-content:hover {
   color: #202020;
 }
-
+.card{
+  transition: all .10s;
+  border: 10px solid #781f40;
+}
 .card:hover {
-  box-shadow: 0 0 1.5rem gray;
+    border: 10px solid #781f40;
+    border-radius: 50%;
+    -webkit-filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 7px 1px rgba(0,0,0,.5));
+    -webkit-transform: rotateZ(-360deg) scale(1.5);
+    transform: rotateZ(-360deg) scale(1.5);
+}
 }
 
 .autor {
@@ -238,9 +264,7 @@ a {
 }
 
 .form button:hover {
-  /* background-color: aquamarine; */
   background: left bottom;
-  /* color: #291414; */
 }
 
 footer ul li a {
@@ -249,4 +273,22 @@ footer ul li a {
   justify-content: center;
   align-items: center;
   color: #726899;
+}
+span{
+  color: #5d0da8;
+}
+.tech{
+  animation-duration: 22s;
+  animation-name: slidein;
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
