@@ -152,7 +152,22 @@ a {
   text-align: center;
   display: block;
 }
+.tech{
+  animation-duration: 22s;
+  animation-name: slidein;
+}
 
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 /*──────────────────
     projects
 ──────────────────*/
@@ -276,19 +291,4 @@ footer ul li a {
 }
 span{
   color: #5d0da8;
-}
-.tech{
-  animation-duration: 22s;
-  animation-name: slidein;
-}
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
-  }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
 }
